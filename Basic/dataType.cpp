@@ -47,6 +47,7 @@ int main(){
     cout << 2.0/5 << endl;
 */
 
+/*
     int a = 3;
     int b = 4;
 
@@ -67,5 +68,9 @@ int main(){
 
     bool sixth = (a <= b);
     cout << sixth << endl;
+*/
+
+    int a = 000;
+    cout << !a <<endl;
 }
 
