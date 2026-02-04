@@ -68,6 +68,18 @@ int main(){
 
 
 
+    // ** Convert Farehnite to ** //
+/*
+    float F;
+    cout<<"Enter the value of Farhenite: ";
+    cin>>F;
+    
+    float C;
+    C = (F - 32) * 5 / 9;
+    cout<<"The Celcius value is: "<<C;
+
+    return 0;
+*/
 
 
 
