@@ -89,15 +89,15 @@ int main(){
     cout<<"Enter a number: ";
     cin>>n;
 
-    int i = 1;
-    if (i <= n){
-        if (i % 2 != 0){
+    int i = 2;
+    if (i < n){
+        if (n % i != 0){
             cout<<"This is a primeNumber";
-        } else {
+        } else if (n % i == 0) {
             cout<<"This is not a primeNumber";
+        }else {
+            cout<<"Enter a valid number!!";
         }
-    } else {
-        cout<<"Enter a Valid number!";
     }
 
 }
