@@ -81,7 +81,23 @@ int main(){
     return 0;
 */
 
+    
 
+    //* Find out the number Prime or not *//
 
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+    int i = 1;
+    if (i <= n){
+        if (i % 2 != 0){
+            cout<<"This is a primeNumber";
+        } else {
+            cout<<"This is not a primeNumber";
+        }
+    } else {
+        cout<<"Enter a Valid number!";
+    }
 
 }
