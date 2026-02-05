@@ -92,5 +92,49 @@ int main(){
 
 
 
+    //* Print a Triangle *//
+/*
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+    int row = 1;
+
+    while (row <= n)
+    {
+        int col = 1;
+        while (col <= row)
+        {
+            cout<<"*";
+            col = col + 1;
+        }
+        cout<<endl;
+
+        row = row + 1;
+        
+    }
+*/
+
+
+    //* Print another triangle with equal row number value*//
+
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+    int row = 1;
+    while (row <= n)
+    {
+        int col = 1;
+        while (col <= row)
+        {
+            cout<<row;
+            col = col + 1;
+        }
+        cout<<endl;
+        
+        row = row+ 1;
+    }
+    
 
 }
