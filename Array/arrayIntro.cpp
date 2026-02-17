@@ -59,6 +59,21 @@ int main() {
     cout << "size of Fifth is " << fifthSize << endl;
 
 
+    char ch[5] = {'a', 'b', 'c', 'r','p'};
+    cout << ch[3] << endl;
+
+    cout << "printing the array" << endl;
+    //print the array
+    for (int i=0; i<5; i++){
+        cout << ch[i] << " ";    
+    }
+    cout << "printing DONE" << endl;
+
+    double firstDouble[5];
+    float firstfloat[6];
+    bool firsbool[9];
+
+
     cout << endl << "Everything is fine" << endl << endl;
 
     return 0;
